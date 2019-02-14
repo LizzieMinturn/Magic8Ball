@@ -18,15 +18,25 @@ public class Main {
         System.out.println("choose a number between 1 and 100");
         number = keyboard.nextInt();
 
-        if(number<=10){}
+        if(number<=10){
+            System.out.println();
+        }
         else if(number<=20){}
-        else if(number<=30){}
+        else if(number<=30){
+            System.out.println("I love it!");
+        }
         else if(number<=40){}
-        else if(number<=50){}
+        else if(number<=50){
+            System.out.println("yes, duh!");
+        }
         else if(number<=60){}
-        else if(number<=70){}
+        else if(number<=70){
+            System.out.println("Without a doubt.");
+        }
         else if(number<=80){}
-        else if(number<=90){}
+        else if(number<=90){
+            System.out.println("Yes, you're the man!");
+        }
         else if(number<=100){}
 
     }
