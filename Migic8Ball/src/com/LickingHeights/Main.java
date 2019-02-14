@@ -18,7 +18,16 @@ public class Main {
         System.out.println("choose a number between 1 and 100");
         number = keyboard.nextInt();
 
-
+        if(number<=10){}
+        else if(number<=20){}
+        else if(number<=30){}
+        else if(number<=40){}
+        else if(number<=50){}
+        else if(number<=60){}
+        else if(number<=70){}
+        else if(number<=80){}
+        else if(number<=90){}
+        else if(number<=100){}
 
     }
 }
