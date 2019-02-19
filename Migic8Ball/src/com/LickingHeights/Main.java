@@ -46,8 +46,7 @@ public class Main {
             System.out.println("Yes, you're the man!");
         }
         else if(number<=100){
-            System.out.println("That is not smart");
+            System.out.println("That's not smart");
         }
-
     }
 }
