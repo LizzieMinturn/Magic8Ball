@@ -19,25 +19,35 @@ public class Main {
         number = keyboard.nextInt();
 
         if(number<=10){
-            System.out.println();
+            System.out.println(" It is more than likely");
         }
-        else if(number<=20){}
+        else if(number<=20){
+            System.out.println("Probably not");
+        }
         else if(number<=30){
             System.out.println("I love it!");
         }
-        else if(number<=40){}
+        else if(number<=40){
+            System.out.println("Sorry, no");
+        }
         else if(number<=50){
-            System.out.println("yes, duh!");
+            System.out.println("Yes, duh!");
         }
-        else if(number<=60){}
+        else if(number<=60){
+            System.out.println("I don't know yet");
+        }
         else if(number<=70){
-            System.out.println("Without a doubt.");
+            System.out.println("Without a doubt");
         }
-        else if(number<=80){}
+        else if(number<=80){
+            System.out.println("It is not likely");
+        }
         else if(number<=90){
             System.out.println("Yes, you're the man!");
         }
-        else if(number<=100){}
+        else if(number<=100){
+            System.out.println("That is not smart");
+        }
 
     }
 }
